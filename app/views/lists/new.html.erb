@@ -1,0 +1,8 @@
+<h2>New list</h2>
+
+<div class="container card m-3 p-3">
+<%= simple_form_for @list do |f| %>
+<%= f.input :name %>
+<%= f.submit "Create list", class: "btn btn-primary" %>
+<% end %>
+</div>
